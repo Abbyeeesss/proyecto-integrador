@@ -4,7 +4,7 @@
 #include <string.h>
 
 int main(void) {
-  int op;
+    int op;
     int num_med = 0;
     int num_eliminados = 0;
     struct medicina medicinaT[20];
@@ -42,7 +42,6 @@ int main(void) {
       case 4:
         verInventario(medicinaT, num_med);
       break;
-
       case 5:
         verEliminados(eliminados, num_eliminados);
       break;
